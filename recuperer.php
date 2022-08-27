@@ -1,6 +1,6 @@
 <?php
     try {
-        $linkpdo = new PDO("mysql:host={nom_hote};dbname={nom_db}", "{utilisateur}", "{mdp}");	
+        $linkpdo = new PDO("mysql:host=localhost;dbname=messagerie-ins", "root", "");	
     }
     catch(Exception $e){
         die('Erreur : '.$e->getMessage());
